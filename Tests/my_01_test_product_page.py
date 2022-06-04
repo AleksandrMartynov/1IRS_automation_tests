@@ -7,7 +7,7 @@ import time
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 """" Открываем браузер Chrome"""
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+#driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 """Задаём переменную для ссылки на страницу сайта"""
 #test_site_name = "http://tutorialsninja.com/demo/index.php?route=product/product&amp;product_id=42"
