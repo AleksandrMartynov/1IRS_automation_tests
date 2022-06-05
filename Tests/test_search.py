@@ -7,11 +7,11 @@ import time
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
-test_site_name = "http://54.183.112.233/index.php?route=product/search"
+test_site_name = "http://54.183.112.233/index.php?route=product/search" #Удалить позже
 
 start_time = time.time()
-driver.get(test_site_name)
-"""Проверка страницы ПОИСКа на сайте"""
+driver.get(test_site_name) #Удалить позже
+"""Проверка страницы ПОИСКа на сайте"""  #Удалить позже
 search_site_page: WebElement = driver.find_element(By.TAG_NAME, 'h1')
 site_page_test = "Search"
 if site_page_test == search_site_page.text:
